@@ -1,5 +1,5 @@
 
-<ul>  
+<ul>
   <%= cart.each do |product| %>
     <li><%= product %></li>
   <% end %>
