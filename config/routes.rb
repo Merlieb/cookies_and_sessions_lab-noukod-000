@@ -1,4 +1,3 @@
-
 Rails.aplication.routes.draw do
   root 'products#index'
  post '/products' => 'products#add'
